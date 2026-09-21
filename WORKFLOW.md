@@ -14,7 +14,8 @@ Fetched remote updates in Clone B, resolved the merge conflict in `shifts.js` by
 
 ## Task 4: Reconciling with a Rebase
 Attempted to push a local commit from Clone A, rebased local changes on top of the remote tracking branch, and pushed a clean history.
-![Task 4 Evidence](screenshots/task4.png)
+![Task 4 (REJECTED) Evidence](screenshots/task4-rejected.png)
+![Task 4 (REBASED) Evidence](screenshots/task4-rebase.png)
 
 ## Task 5: Merging Feature Branch into Main
 Switched to the `main` branch, merged `feature/overtime-pay` via fast-forward, and pushed the updated `main` branch to GitHub.
@@ -22,4 +23,4 @@ Switched to the `main` branch, merged `feature/overtime-pay` via fast-forward, a
 
 ## Task 6: Branch Cleanup
 Deleted the `feature/overtime-pay` branch locally and removed it from the remote repository on GitHub.
-![Task 6 Evidence](screenshots/task6.png)
+![Task 6 Evidence](screenshots/task6.png)   
