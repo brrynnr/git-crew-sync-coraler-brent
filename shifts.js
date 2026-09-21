@@ -1,3 +1,5 @@
+// Updated shift pay calculation - coraler.brent
+
 function isValidShift(hours) {
   return hours > 0 && hours <= 24;
 }
