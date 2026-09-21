@@ -3,7 +3,8 @@ function isValidShift(hours) {
 }
 
 function calculatePay(hours, rate) {
-  return Math.round(hours * rate);
+  return Math.round(hours * rate * 100) / 100;
 }
 
 module.exports = { isValidShift, calculatePay };
+  
